@@ -13,5 +13,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'consistent-return': 'off',
     'padded-blocks': 'off',
+    camelcase: 'off',
+    'object-curly-newline': 'off',
   },
 };
