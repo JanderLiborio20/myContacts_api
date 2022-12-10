@@ -15,5 +15,6 @@ module.exports = {
     'padded-blocks': 'off',
     camelcase: 'off',
     'object-curly-newline': 'off',
+    'no-unused-vars': ['error', { argsIgnorePattern: 'next' }],
   },
 };
