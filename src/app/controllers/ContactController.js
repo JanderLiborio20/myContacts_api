@@ -24,7 +24,7 @@ class ContactController {
     response.json(contact);
   }
 
-  async strore(request, response) {
+  async store(request, response) {
     // Criar novo registro
 
     const { name, email, phone, category_id } = request.body;
@@ -48,7 +48,7 @@ class ContactController {
       category_id,
     });
 
-    response.json(contact);
+    response.status(201).json(contact);
   }
 
   async update(request, response) {
